@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* {
+  /* text-align: center; */
+  font-family: Raleway;
+}
+
+body {
+  background: #d9d7ce;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Antic Slab", serif;
+}
+
+p {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.homeHeader ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 70%;
+  margin-left: 20vw;
+}
+
+footer {
+  margin-left: 5vw;
+}
+.homeHeader li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+.homeHeader :hover {
+  color: cadetblue;
+}
+#stanleyHomeImg {
+  height: 20vh;
+  width: auto;
+}
+.introText {
+  margin-right: 5%;
+  /* margin-left: 10vw; */
+}
+.exampleDiv {
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  /* height: 25vh; */
+}
+.exampleImg1 {
+  height: 10vh;
+  width: 15vh;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.exampleImg2 {
+  height: 10vh;
+  width: 15vh;
+}
+
+.exampleImg3 {
+  height: 10vh;
+  width: auto;
+}
+
+.exampleImg4 {
+  height: 8vh;
+  width: auto;
+}
+
+.exampleTxt {
+  padding-left: 5%;
+  width: 30vw;
+}
+#currently {
+  margin-top: 2%;
+}
+/* #txt{
+    margin-top: -3%;
+} */
+#container1 {
+  margin-left: 5%;
+}
+#container2 {
+  margin-left: 15%;
+}
+
+@media (min-width: 700px) {
+  .exampleDiv {
+    width: 60%;
+  }
+}
+
+.works {
+  margin-left: 10vh;
+}
